@@ -1,1 +1,6 @@
+INSERT INTO customers (name, phone)
+VALUES ('Lee Hana', '010-7777-8888');
 
+SELECT *
+FROM customers
+WHERE phone = '010-7777-8888';
